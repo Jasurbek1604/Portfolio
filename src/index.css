@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: #1d4350;
+  background: -webkit-linear-gradient(to right, #a43931, #1d4350);
+  background: linear-gradient(to right, #a43931, #1d4350);
+}
