@@ -1,43 +1,29 @@
-import comp from "../assets/computer.jpg";
+import mern from "../assets/mern.jpeg";
+import houzing from "../assets/houzing.png";
+import youtube from "../assets/youtube.png";
 
 export const projects = [
   {
     id: 1,
     title: "Houzing app",
     link: "https://jsurbekdev.netlify.app",
-    img: comp,
+    img: houzing,
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
   },
   {
     id: 2,
-    title: "Houzing app",
+    title: "MERN Auth App",
     link: "https://jsurbekdev.netlify.app",
-    img: comp,
+    img: mern,
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
   },
   {
     id: 3,
-    title: "Houzing app",
+    title: "Youtube clone",
     link: "https://jsurbekdev.netlify.app",
-    img: comp,
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
-  },
-  {
-    id: 4,
-    title: "Houzing app",
-    link: "https://jsurbekdev.netlify.app",
-    img: comp,
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
-  },
-  {
-    id: 5,
-    title: "Houzing app",
-    link: "https://jsurbekdev.netlify.app",
-    img: comp,
+    img: youtube,
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
   },
