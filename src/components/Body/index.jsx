@@ -9,12 +9,10 @@ const Body = () => {
         <Title>Jasurbek O'telbayev</Title>
         <SubTitle>Frontend Developer</SubTitle>
         <Desc>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod,
-          nesciunt culpa nisi harum, recusandae magni placeat odit accusantium
-          mollitia omnis quibusdam repudiandae dolorem voluptates quo blanditiis
-          quisquam voluptatibus, consequuntur ex eum! Dicta voluptas, accusamus
-          porro eveniet adipisci saepe quidem reprehenderit, tempore, deserunt
-          fugiat aut autem cum vero minus magnam natus.
+          Junior Plus Web Developer specializing in front-end development.
+          Experienced with all stages of development cycle for dynamic web
+          projects. Wellversed in JavaScript and ReactJS. Strong background in
+          management and leadership.
         </Desc>
       </Left>
       <Right>

@@ -12,8 +12,8 @@ const Navbar = ({ value }) => {
         <>
           <Links>
             <Link href="">About</Link>
-            <Link href="">About</Link>
-            <Link href="">About</Link>
+            <Link href="">Projects</Link>
+            <Link href=""></Link>
           </Links>
           <Button href="https://t.me/Jasurbek_Otelbayev" target="blank">
             Contact me
@@ -24,7 +24,7 @@ const Navbar = ({ value }) => {
           {isOpen && (
             <Links>
               <Link href="">About</Link>
-              <Link href="">About</Link>
+              <Link href="">Projects</Link>
               <Link href="">About</Link>
               <Button href="https://t.me/Jasurbek_Otelbayev" target="blank">
                 Contact me

@@ -12,6 +12,7 @@ export const Container = styled.div`
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
+  padding-top: 20px;
 `;
 
 export const Links = styled.div`
