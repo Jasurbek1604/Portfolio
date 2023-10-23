@@ -15,7 +15,8 @@ export const Container = styled.div`
   @media (max-width: 1000px) {
     flex-direction: column-reverse;
     height: 100%;
-    padding: 50px 0;
+    padding: 40px 0;
+    gap: 30px;
   }
 `;
 
