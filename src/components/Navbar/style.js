@@ -20,10 +20,10 @@ export const Links = styled.div`
   gap: 25px;
   @media (max-width: 800px) {
     flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
+    gap: 15px;
+    align-items: center;
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: 0;
     width: 100%;
     padding: 10px 40px;
