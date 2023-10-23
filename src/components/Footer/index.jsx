@@ -4,6 +4,8 @@ import telegram from "../../assets/telegram.svg";
 import instagram from "../../assets/instagram.svg";
 import twitter from "../../assets/twitter.svg";
 import github from "../../assets/github.svg";
+import email from "../../assets/email.svg";
+import phone from "../../assets/phone.svg";
 import { Container, Wrapper, Links, Link, Media } from "./style.js";
 
 const Footer = () => {
@@ -12,6 +14,12 @@ const Footer = () => {
       <Wrapper>
         <Logo />
         <Links>
+          <Link href="mailto:jasurbekotlebayev@gmail.com" target="blank">
+            <Media src={email} />
+          </Link>
+          <Link href="tel:+998935960246" target="blank">
+            <Media src={phone} />
+          </Link>
           <Link href="https://t.me/jasurdev1604" target="blank">
             <Media src={telegram} />
           </Link>

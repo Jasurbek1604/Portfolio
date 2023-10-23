@@ -4,7 +4,7 @@ export const Container = styled.div`
   transition: 0.3s;
   border: 1px solid #fff;
   width: 100%;
-  height: 100%;
+  height: 400px;
   border-radius: 5px;
   box-shadow: 0 0 10px #fff;
   &:hover {
