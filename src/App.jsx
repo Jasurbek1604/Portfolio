@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Body from "./components/Body";
 import Projects from "./components/Projects";
 import About from "./components/About";
+import Technologies from "./components/Technologies";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const App = () => {
         <Body />
         <About />
         <Projects />
+        <Technologies />
         <Footer />
       </div>
     </React.Fragment>

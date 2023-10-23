@@ -9,7 +9,7 @@ const Projects = () => {
       <Title id="projects">Projects</Title>
       <Carts>
         {projects.map((item) => (
-          <Cart value={item} />
+          <Cart key={item.id} value={item} />
         ))}
       </Carts>
     </Container>
