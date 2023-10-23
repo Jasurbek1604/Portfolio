@@ -4,6 +4,7 @@ import {
   Container,
   Title,
   Content,
+  Left,
   Img,
   Right,
   P,
@@ -16,7 +17,9 @@ const About = () => {
     <Container>
       <Title>About</Title>
       <Content>
-        <Img src={jasco} />
+        <Left>
+          <Img src={jasco} alt="jasco" />
+        </Left>
         <Right>
           <P>Lorem ipsum dolor sit amet.</P>
           <SubTitle>Lorem ipsum dolor sit amet consectetur.</SubTitle>
