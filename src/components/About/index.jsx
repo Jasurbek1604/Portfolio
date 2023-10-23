@@ -15,7 +15,7 @@ import {
 const About = () => {
   return (
     <Container>
-      <Title>About</Title>
+      <Title id="about">About</Title>
       <Content>
         <Left>
           <Img src={jasco} alt="jasco" />

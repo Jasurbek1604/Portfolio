@@ -6,7 +6,7 @@ import Cart from "../Cart";
 const Projects = () => {
   return (
     <Container>
-      <Title>Projects</Title>
+      <Title id="projects">Projects</Title>
       <Carts>
         {projects.map((item) => (
           <Cart value={item} />

@@ -11,8 +11,8 @@ const Navbar = ({ value }) => {
       {window.innerWidth > 800 ? (
         <>
           <Links>
-            <Link href="">About</Link>
-            <Link href="">Projects</Link>
+            <Link href="#about">About</Link>
+            <Link href="#projects">Projects</Link>
             <Link href=""></Link>
           </Links>
           <Button href="https://t.me/Jasurbek_Otelbayev" target="blank">
@@ -23,9 +23,8 @@ const Navbar = ({ value }) => {
         <>
           {isOpen && (
             <Links>
-              <Link href="">About</Link>
-              <Link href="">Projects</Link>
-              <Link href="">About</Link>
+              <Link href="#about">About</Link>
+              <Link href="#projects">Projects</Link>
               <Button href="https://t.me/Jasurbek_Otelbayev" target="blank">
                 Contact me
               </Button>
