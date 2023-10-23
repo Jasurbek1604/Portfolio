@@ -15,33 +15,14 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   height: 100px;
-  width: 80%;
+  max-width: 1200px;
+  width: 90%;
   ${Center};
   justify-content: space-between;
   @media screen and (max-width: 500px) {
     flex-direction: column;
     gap: 10px;
   }
-`;
-
-export const Logo = styled.div`
-  display: flex;
-  align-items: stretch;
-  gap: 5px;
-  ${Center};
-`;
-
-export const Img = styled.img`
-  height: 50px;
-  width: 50px;
-`;
-
-export const Name = styled.div`
-  text-transform: uppercase;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 25px;
-  width: 50px;
-  line-height: 20px;
 `;
 
 export const Links = styled.div`

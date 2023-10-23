@@ -1,5 +1,84 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+const flex = css`
+  display: flex;
+  align-items: center;
+`;
 
 export const Container = styled.div`
-  height: 100vh;
+  ${flex};
+  justify-content: space-between;
+  height: 80px;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+`;
+
+export const Links = styled.div`
+  ${flex};
+  gap: 25px;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 10px 40px;
+  }
+`;
+
+export const Link = styled.a`
+  transition: 0.3s;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: "Sometype Mono", monospace;
+  font-weight: 600;
+  background: #f6f8f9;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #f6f8f9 0%,
+    #e5ebee 30%,
+    #d7dee3 60%,
+    #f5f7f9 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  &:hover {
+    text-shadow: 0 1px 5px #f5f7f9;
+  }
+`;
+export const Button = styled.a`
+  font-family: "Sometype Mono", monospace;
+  font-weight: 600;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    #16222a 0%,
+    #3a6073 51%,
+    #16222a 100%
+  );
+  padding: 15px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: ${({ burger }) => (burger ? "5px" : "10px")};
+  display: block;
+
+  &:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  @media (max-width: 800px) {
+    padding: 8px 20px;
+    box-shadow: 0 0 10px #eee;
+    padding: ${({ burger }) => burger && "8px 13px 6px"};
+  }
 `;

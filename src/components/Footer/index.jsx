@@ -1,28 +1,16 @@
 import React from "react";
-import code from "../../assets/code-solid.svg";
+import Logo from "../Logo";
 import telegram from "../../assets/telegram.svg";
 import instagram from "../../assets/instagram.svg";
 import twitter from "../../assets/twitter.svg";
 import github from "../../assets/github.svg";
-import {
-  Container,
-  Wrapper,
-  Logo,
-  Links,
-  Img,
-  Name,
-  Link,
-  Media,
-} from "./style.js";
+import { Container, Wrapper, Links, Link, Media } from "./style.js";
 
 const Footer = () => {
   return (
     <Container>
       <Wrapper>
-        <Logo>
-          <Img src={code} />
-          <Name>Jasurbek O'telbayev</Name>
-        </Logo>
+        <Logo />
         <Links>
           <Link href="https://t.me/jasurdev1604" target="blank">
             <Media src={telegram} />
