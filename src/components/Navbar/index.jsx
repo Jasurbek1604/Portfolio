@@ -8,7 +8,7 @@ const Navbar = ({ value }) => {
   return (
     <Container>
       <Logo />
-      {window.innerWidth > 800 ? (
+      {window.innerWidth > 930 ? (
         <>
           <Links>
             <Link href="#about">About</Link>

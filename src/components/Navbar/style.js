@@ -18,15 +18,14 @@ export const Container = styled.div`
 export const Links = styled.div`
   ${flex};
   gap: 25px;
-  @media (max-width: 800px) {
+  @media (max-width: 930px) {
     flex-direction: column;
     gap: 15px;
     align-items: center;
     position: absolute;
-    top: 70px;
+    top: 40px;
     left: 0;
     width: 100%;
-    padding: 10px 40px;
   }
 `;
 
@@ -60,6 +59,7 @@ export const Button = styled.a`
     #3a6073 51%,
     #16222a 100%
   );
+  cursor: pointer;
   padding: 15px 35px;
   text-align: center;
   text-transform: uppercase;
@@ -77,7 +77,7 @@ export const Button = styled.a`
     text-decoration: none;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 930px) {
     padding: 8px 20px;
     box-shadow: 0 0 10px #eee;
     padding: ${({ burger }) => burger && "8px 13px 6px"};
