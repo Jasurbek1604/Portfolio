@@ -14,6 +14,7 @@ const Navbar = ({ value }) => {
             <Link href="#about">About</Link>
             <Link href="#projects">Projects</Link>
             <Link href="#technologies">Technologies</Link>
+            <Link href="#resume">Resume</Link>
           </Links>
           <Button href="https://t.me/Jasurbek_Otelbayev" target="blank">
             Contact me
@@ -26,6 +27,7 @@ const Navbar = ({ value }) => {
               <Link href="#about">About</Link>
               <Link href="#projects">Projects</Link>
               <Link href="#technologies">Technologies</Link>
+              <Link href="#resume">Resume</Link>
               <Button href="https://t.me/Jasurbek_Otelbayev" target="blank">
                 Contact me
               </Button>

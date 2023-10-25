@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  margin: 200px auto 100px;
   width: 90%;
   max-width: 1200px;
-  margin: 60px auto;
 `;
 
 export const Title = styled.div`
@@ -14,17 +14,14 @@ export const Title = styled.div`
   margin: 20px 0 60px;
 `;
 
-export const Wrapper = styled.div`
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 50px;
-  @media (max-width: 768px) {
-    grid-template-columns: repeat(5, 1fr);
-    gap: 30px;
-  }
+export const Div = styled.div`
+  width: 70%;
+  margin: 0 auto;
 `;
 
 export const Img = styled.img`
+  box-shadow: 0 0 10px #fff;
   width: 100%;
-  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
 `;
