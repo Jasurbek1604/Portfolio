@@ -13,8 +13,8 @@ const Navbar = ({ value }) => {
           <Links>
             <Link href="#about">About</Link>
             <Link href="#projects">Projects</Link>
-            <Link href="#technologies">Technologies</Link>
             <Link href="#resume">Resume</Link>
+            <Link href="#technologies">Technologies</Link>
           </Links>
           <Button href="https://t.me/Jasurbek_Otelbayev" target="blank">
             Contact me
@@ -26,8 +26,8 @@ const Navbar = ({ value }) => {
             <Links>
               <Link href="#about">About</Link>
               <Link href="#projects">Projects</Link>
-              <Link href="#technologies">Technologies</Link>
               <Link href="#resume">Resume</Link>
+              <Link href="#technologies">Technologies</Link>
               <Button href="https://t.me/Jasurbek_Otelbayev" target="blank">
                 Contact me
               </Button>
