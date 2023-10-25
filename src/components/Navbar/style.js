@@ -23,7 +23,8 @@ export const Links = styled.div`
     gap: 15px;
     align-items: center;
     position: absolute;
-    top: 40px;
+    top: 70px;
+    padding: 20px 40px;
     left: 0;
     width: 100%;
   }

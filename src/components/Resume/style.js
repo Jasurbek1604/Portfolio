@@ -17,6 +17,9 @@ export const Title = styled.div`
 export const Div = styled.div`
   width: 70%;
   margin: 0 auto;
+  @media (max-width: 930px) {
+    width: 90%;
+  }
 `;
 
 export const Img = styled.img`
