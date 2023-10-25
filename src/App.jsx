@@ -15,7 +15,7 @@ const App = () => {
       <div
         style={{
           transition: "transform 0.3s ease-in-out",
-          transform: isOpen && "translateY(150px)",
+          transform: isOpen && "translateY(200px)",
         }}
       >
         <Body />
