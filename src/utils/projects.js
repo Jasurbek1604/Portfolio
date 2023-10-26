@@ -1,7 +1,6 @@
-import mern from "../assets/mern.jpeg";
 import houzing from "../assets/houzing.png";
-import youtube from "../assets/youtube.png";
 import chatgpt from "../assets/chatgpt.jpg";
+import htmlcss from "../assets/htmlcss.jpg";
 
 export const projects = [
   {
@@ -17,6 +16,14 @@ export const projects = [
     title: "Chat GPT",
     link: "https://jasur-gpt.netlify.app/",
     img: chatgpt,
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
+  },
+  {
+    id: 3,
+    title: "HTML & CSS mini projects",
+    link: "https://jasurbekdev.netlify.app/",
+    img: htmlcss,
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
   },
