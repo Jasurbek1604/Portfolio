@@ -13,12 +13,11 @@ export const projects = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
   },
   {
-    id:2 ,
+    id: 2,
     title: "Chat GPT",
-    link: "https://jasur-houze.netlify.app",
+    link: "https://jasur-gpt.netlify.app/",
     img: chatgpt,
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
   },
-
 ];
