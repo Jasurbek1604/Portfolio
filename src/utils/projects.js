@@ -50,10 +50,4 @@ export const miniProjects = [
     link: "https://jasur-gpt.netlify.app/",
     img: searchImg,
   },
-  {
-    id: 4,
-    title: "Image Search App",
-    link: "https://jasur-gpt.netlify.app/",
-    img: searchImg,
-  },
 ];
