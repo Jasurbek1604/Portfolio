@@ -47,7 +47,7 @@ export const miniProjects = [
   {
     id: 3,
     title: "Image Search App",
-    link: "https://jasur-gpt.netlify.app/",
+    link: "https://65425c5c48e7e65c6a036a42--venerable-bavarois-62c6ce.netlify.app/",
     img: searchImg,
   },
 ];

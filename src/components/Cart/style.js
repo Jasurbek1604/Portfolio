@@ -11,7 +11,7 @@ export const Container = styled.div`
     transform: scale(1.01);
   }
   @media (max-width:800px){
-    min-height: ${({ mini }) => (mini && "250px")};
+    min-height: ${({ mini }) => (mini && "200px")};
   }
 `;
 
@@ -26,7 +26,7 @@ export const Img = styled.img`
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   @media (max-width:800px){
-    min-height: ${({ mini }) => (mini && "120px")};
+    height: ${({ mini }) => (mini && "120px")};
   }
 `;
 
