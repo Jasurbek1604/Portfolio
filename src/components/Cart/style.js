@@ -31,11 +31,14 @@ export const Img = styled.img`
 `;
 
 export const Title = styled.div`
-  padding: ${({ mini }) => (mini ? "20px 0" : "10px")};
+  padding: ${({ mini }) => (mini ? "20px" : "10px")};
   font-size: ${({ mini }) => (mini ? "1.3rem" : "1.5rem")};
   font-family: "Sometype Mono", monospace;
   font-weight: 700;
   text-align: ${({ mini }) => mini && "center"};
+  @media (max-width:800px){
+    padding: ${({ mini }) => (mini && "10px")};
+  }
 `;
 export const P = styled.div`
   padding: 0 10px 10px 10px;
