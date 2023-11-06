@@ -3,6 +3,7 @@ import chatgpt from "../assets/chatgpt.jpg";
 import htmlcss from "../assets/htmlcss.jpg";
 import mern from "../assets/mern.jpeg";
 import searchImg from "../assets/imageSearch.png";
+import crud from "../assets/crud-new.png";
 
 export const projects = [
   {
@@ -16,7 +17,7 @@ export const projects = [
   {
     id: 2,
     title: "Mern CRUD Application",
-    link: "https://mern-crud-jasur.onrender.com/",
+    link: "",
     img: mern,
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
@@ -49,5 +50,11 @@ export const miniProjects = [
     title: "Image Search App",
     link: "https://65425c5c48e7e65c6a036a42--venerable-bavarois-62c6ce.netlify.app/",
     img: searchImg,
+  },
+  {
+    id: 4,
+    title: "CRUD",
+    link: "https://65425c5c48e7e65c6a036a42--venerable-bavarois-62c6ce.netlify.app/",
+    img: crud,
   },
 ];
