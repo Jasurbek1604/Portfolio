@@ -54,7 +54,7 @@ export const miniProjects = [
   {
     id: 4,
     title: "CRUD",
-    link: "https://65425c5c48e7e65c6a036a42--venerable-bavarois-62c6ce.netlify.app/",
+    link: "https://6549fa49e9e4086f0f0ce927--thunderous-lebkuchen-67d047.netlify.app/",
     img: crud,
   },
 ];
