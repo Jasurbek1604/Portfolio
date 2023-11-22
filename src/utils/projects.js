@@ -4,6 +4,8 @@ import htmlcss from "../assets/htmlcss.jpg";
 import mern from "../assets/mern.jpeg";
 import searchImg from "../assets/imageSearch.png";
 import crud from "../assets/crud-new.png";
+import mash from "../assets/mash.png";
+import tstu from "../assets/tstu.png";
 
 export const projects = [
   {
@@ -24,6 +26,22 @@ export const projects = [
   },
   {
     id: 3,
+    title: "TSTU",
+    link: "https://tstu.netlify.app",
+    img: tstu,
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
+  },
+  {
+    id: 4,
+    title: "MASHT'AMIR Automatization",
+    link: "https://mashremont.netlify.app/",
+    img: mash,
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
+  },
+  {
+    id: 5,
     title: "Mern Auth Application",
     link: "https://mern-crud-jasur.onrender.com/",
     img: mern,
