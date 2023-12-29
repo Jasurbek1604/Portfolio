@@ -12,4 +12,5 @@ body {
   background: #1d4350;
   background: -webkit-linear-gradient(to right, #a43931, #1d4350);
   background: linear-gradient(to right, #a43931, #1d4350);
+  overflow-x: hidden;
 }

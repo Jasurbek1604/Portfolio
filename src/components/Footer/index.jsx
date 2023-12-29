@@ -10,7 +10,7 @@ import { Container, Wrapper, Links, Link, Media } from "./style.js";
 
 const Footer = () => {
   return (
-    <Container>
+    <Container data-aos="fade-up" data-aos-duration="1000">
       <Wrapper>
         <Logo />
         <Links>

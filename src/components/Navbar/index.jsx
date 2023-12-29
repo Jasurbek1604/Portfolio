@@ -1,12 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../Logo";
 import bar from "../../assets/bar.svg";
 import { Container, Links, Link, Button } from "./style.js";
+import AOS from "aos";
 
 const Navbar = ({ value }) => {
   const [isOpen, setIsOpen] = value;
+
+  useEffect(() => {
+    AOS.refresh();
+  }, []);
+
   return (
-    <Container>
+    <Container data-aos="fade-down" data-aos-duration="1000">
       <Logo />
       {window.innerWidth > 930 ? (
         <>

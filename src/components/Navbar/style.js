@@ -44,8 +44,7 @@ export const Link = styled.a`
     #d7dee3 60%,
     #f5f7f9 100%
   );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: transparent;
   &:hover {
     text-shadow: 0 1px 5px #f5f7f9;
   }

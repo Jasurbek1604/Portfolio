@@ -4,7 +4,7 @@ import { Container, Left, Right, Title, SubTitle, Desc, Img } from "./style";
 
 const Body = () => {
   return (
-    <Container>
+    <Container data-aos="fade-up" data-aos-duration="1000">
       <Left>
         <Title>Jasurbek O'telbayev</Title>
         <SubTitle>Frontend Developer</SubTitle>

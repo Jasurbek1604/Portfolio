@@ -6,18 +6,22 @@ import Cart from "../Cart";
 const Projects = () => {
   return (
     <Container>
-      <Title id="projects">Projects</Title>
-      <Carts>
-        {projects.map((item) => (
-          <Cart style={{ height: "400px" }} key={item.id} value={item} />
-        ))}
-      </Carts>
-      <Title mini>Mini Projects</Title>
-      <Mini>
-        {miniProjects.map((item) => (
-          <Cart key={item.id} mini value={item} />
-        ))}
-      </Mini>
+      <div data-aos="fade-right" data-aos-duration="1000">
+        <Title id="projects">Projects</Title>
+        <Carts>
+          {projects.map((item) => (
+            <Cart style={{ height: "400px" }} key={item.id} value={item} />
+          ))}
+        </Carts>
+      </div>
+      <div data-aos="fade-left" data-aos-duration="1000">
+        <Title mini>Mini Projects</Title>
+        <Mini>
+          {miniProjects.map((item) => (
+            <Cart key={item.id} mini value={item} />
+          ))}
+        </Mini>
+      </div>
     </Container>
   );
 };

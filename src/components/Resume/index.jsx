@@ -5,7 +5,7 @@ import { Container, Title, Div, Img } from "./style";
 
 const Resume = () => {
   return (
-    <Container>
+    <Container data-aos="fade-right" data-aos-duration="1000">
       <Title id="resume">Resume</Title>
       <Div>
         <a href={pdf} target="blank">

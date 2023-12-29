@@ -4,7 +4,7 @@ import { Container, Title, Wrapper, Img } from "./style";
 
 const Technologies = () => {
   return (
-    <Container>
+    <Container data-aos="fade-left" data-aos-duration="1000">
       <Title id="technologies">Technologies</Title>
       <Wrapper>
         {technologies.map((tech) => (
