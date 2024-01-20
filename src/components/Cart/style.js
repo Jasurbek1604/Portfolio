@@ -6,12 +6,12 @@ export const Container = styled.div`
   width: 100%;
   border-radius: 5px;
   box-shadow: 0 0 10px #fff;
-  min-height: ${({ mini }) => (mini ? "300px" : "400px")};
+  min-height: ${({ mini }) => (mini ? "200px" : "400px")};
   &:hover {
     transform: scale(1.01);
   }
-  @media (max-width:800px){
-    min-height: ${({ mini }) => (mini && "200px")};
+  @media (max-width: 800px) {
+    min-height: ${({ mini }) => mini && "200px"};
   }
 `;
 
@@ -22,11 +22,11 @@ export const A = styled.a`
 
 export const Img = styled.img`
   width: 100%;
-  height: ${({ mini }) => (mini ? "170px" : "220px")};
+  height: ${({ mini }) => (mini ? "100%" : "230px")};
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  @media (max-width:800px){
-    height: ${({ mini }) => (mini && "120px")};
+  @media (max-width: 800px) {
+    height: ${({ mini }) => mini && "120px"};
   }
 `;
 
@@ -36,8 +36,8 @@ export const Title = styled.div`
   font-family: "Sometype Mono", monospace;
   font-weight: 700;
   text-align: ${({ mini }) => mini && "center"};
-  @media (max-width:800px){
-    padding: ${({ mini }) => (mini && "10px")};
+  @media (max-width: 800px) {
+    padding: ${({ mini }) => mini && "10px"};
   }
 `;
 export const P = styled.div`

@@ -17,7 +17,7 @@ export const Title = styled.div`
 export const Carts = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 20px;
   @media (max-width: 1040px) {
     gap: 30px;
   }
@@ -33,7 +33,7 @@ export const Carts = styled.div`
 
 export const Mini = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   @media (max-width: 1100px) {
     grid-template-columns: repeat(3, 1fr);

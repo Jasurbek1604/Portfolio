@@ -15,7 +15,7 @@ const Projects = () => {
         </Carts>
       </div>
       <div data-aos="fade-left" data-aos-duration="1000">
-        <Title mini>Mini Projects</Title>
+        <Title mini>Html & Css</Title>
         <Mini>
           {miniProjects.map((item) => (
             <Cart key={item.id} mini value={item} />
