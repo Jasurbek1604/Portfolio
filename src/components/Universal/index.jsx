@@ -15,7 +15,7 @@ const Universal = () => {
   const [click, setClick] = useState(true);
   const [mode, setMode] = UseModeContext();
   const theme = {
-    bg: mode === "light" ? "var(--bgLight)" : "var(--bgDark)",
+    bg: mode === "light" ? "#f2f2fc" : "rgba(0,0,0,1)",
     color: mode === "light" ? "var(--dark)" : "var(--light)",
   };
 

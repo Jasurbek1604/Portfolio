@@ -16,6 +16,6 @@ body {
   --bgDark: linear-gradient(to right, #2e2e2e, #001218);
   --bgLight: linear-gradient(to right, #e0e0e0, #3bfff560);
 
-  --light: rgba(255, 255, 255, 0.87);
+  --light: rgba(255, 255, 255, 1);
   --dark: rgba(0, 0, 0, 0.87);
 }

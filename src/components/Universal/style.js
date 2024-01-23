@@ -39,6 +39,7 @@ export const Setting = styled(setting)`
 export const Content = styled.div`
   height: 100vh;
   width: calc(100% - 300px);
+  /* background: ${({ mode }) => (mode === "light" ? "#f2f2fc" : "#151515")}; */
 `;
 
 export const SiteSetting = styled.div`
