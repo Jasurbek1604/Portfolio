@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Link } from "./style";
+import { Container, Link, Icons } from "./style";
 import { UseModeContext } from "../../context/ModeContenxt";
 import Logo from "../Logo";
 
@@ -11,22 +11,22 @@ const Sidebar = () => {
       <div className="nav">
         <div className="nav__item">
           <Link mode={mode} to="/">
-            Main
+            <Icons.Home /> Main
           </Link>
         </div>
         <div className="nav__item">
           <Link mode={mode} to="/about">
-            About
+            <Icons.About /> About
           </Link>
         </div>
         <div className="nav__item">
           <Link mode={mode} to="/projects">
-            Projects
+            <Icons.Projects /> Projects
           </Link>
         </div>
         <div className="nav__item">
           <Link mode={mode} to="/contact">
-            Contact
+            <Icons.Contact /> Contact
           </Link>
         </div>
       </div>

@@ -1,5 +1,9 @@
 import { NavLink } from "react-router-dom";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+import home from "../../assets/home.svg?react";
+import about from "../../assets/about.svg?react";
+import contact from "../../assets/contact.svg?react";
+import projects from "../../assets/projects.svg?react";
 
 export const Container = styled.div`
   width: 280px;
@@ -41,11 +45,57 @@ export const Link = styled(NavLink)`
   padding: 5px 0;
   margin: 5px 0;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  path {
+    stroke: ${({ mode }) =>
+      mode === "light" ? "var(--dark)" : "var(--light)"};
+  }
+  circle {
+    stroke: ${({ mode }) =>
+      mode === "light" ? "var(--dark)" : "var(--light)"};
+  }
   &.active {
     transform: translateX(10px);
     color: red;
+    path {
+      stroke: red;
+    }
+    circle {
+      stroke: red;
+    }
   }
   &:hover {
     color: red;
+    path {
+      stroke: red;
+    }
+    circle {
+      stroke: red;
+    }
   }
+`;
+
+export const Icons = styled.div``;
+
+const iconStyle = css`
+  width: 20px;
+  height: 20px;
+`;
+
+Icons.Home = styled(home)`
+  ${iconStyle};
+`;
+
+Icons.About = styled(about)`
+  ${iconStyle}
+`;
+
+Icons.Contact = styled(contact)`
+  ${iconStyle}
+`;
+
+Icons.Projects = styled(projects)`
+  ${iconStyle}
 `;

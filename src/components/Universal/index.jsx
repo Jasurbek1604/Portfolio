@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
 import { UseModeContext } from "../../context/ModeContenxt";
 import Sidebar from "../Sidebar";
-import { Container, Content, Setting, SiteSetting, Wrap } from "./style";
+import { Container, Content, Setting, SiteSetting, Wrap, Mode } from "./style";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -26,25 +26,27 @@ const Universal = () => {
         <Sidebar />
         <Content>
           <Outlet />
-          <SiteSetting $click={click.toString()}>
+          <SiteSetting mode={mode} $click={click.toString()}>
             <Wrap onClick={() => setClick(!click)}>
               <Setting />
             </Wrap>
             <button
+              style={{ background: mode === "light" && "lightgray" }}
               onClick={() => {
                 setMode("light");
                 localStorage.setItem("mode", "light");
               }}
             >
-              light
+              <Mode.Light />
             </button>
             <button
+              style={{ background: mode === "dark" && "lightgray" }}
               onClick={() => {
                 setMode("dark");
                 localStorage.setItem("mode", "dark");
               }}
             >
-              dark
+              <Mode.Dark />
             </button>
           </SiteSetting>
         </Content>

@@ -1,5 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import setting from "../../assets/setting.svg?react";
+import dark from "../../assets/dark-mode.svg?react";
+import light from "../../assets/light-mode.svg?react";
 
 export const Container = styled.div`
   display: flex;
@@ -39,7 +41,6 @@ export const Setting = styled(setting)`
 export const Content = styled.div`
   height: 100vh;
   width: calc(100% - 300px);
-  /* background: ${({ mode }) => (mode === "light" ? "#f2f2fc" : "#151515")}; */
 `;
 
 export const SiteSetting = styled.div`
@@ -54,4 +55,28 @@ export const SiteSetting = styled.div`
     $click === "true" ? "translateX(100%)" : "translateX(0)"};
   border-radius: 0px 0 0 5px;
   z-index: 99;
+  button {
+    background: transparent;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    padding: 3px;
+    margin: 5px;
+    &:hover {
+      background: gainsboro;
+    }
+    &:active {
+      opacity: 0.5;
+    }
+  }
+`;
+
+export const Mode = styled.div``;
+
+Mode.Dark = styled(dark)`
+  width: 20px;
+  height: 20px;
+`;
+Mode.Light = styled(light)`
+  width: 20px;
+  height: 20px;
 `;
