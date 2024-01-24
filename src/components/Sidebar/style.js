@@ -49,30 +49,38 @@ export const Link = styled(NavLink)`
   align-items: center;
   gap: 5px;
   path {
+    transition: 0.3s;
     stroke: ${({ mode }) =>
       mode === "light" ? "var(--dark)" : "var(--light)"};
   }
   circle {
+    transition: 0.3s;
     stroke: ${({ mode }) =>
       mode === "light" ? "var(--dark)" : "var(--light)"};
   }
   &.active {
+    transition: 0.3s;
     transform: translateX(10px);
-    color: red;
+    color: ${({ color }) => color};
     path {
-      stroke: red;
+      transition: 0.3s;
+      stroke: ${({ color }) => color};
     }
     circle {
-      stroke: red;
+      transition: 0.3s;
+      stroke: ${({ color }) => color};
     }
   }
   &:hover {
-    color: red;
+    transition: 0.3s;
+    color: ${({ color }) => color};
     path {
-      stroke: red;
+      transition: 0.3s;
+      stroke: ${({ color }) => color};
     }
     circle {
-      stroke: red;
+      transition: 0.3s;
+      stroke: ${({ color }) => color};
     }
   }
 `;

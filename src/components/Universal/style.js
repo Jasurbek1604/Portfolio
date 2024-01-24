@@ -47,7 +47,7 @@ export const SiteSetting = styled.div`
   transition: 0.5s;
   position: absolute;
   background: #fff;
-  width: 150px;
+  width: 200px;
   padding: 20px;
   text-align: center;
   right: 0;
@@ -66,6 +66,55 @@ export const SiteSetting = styled.div`
     }
     &:active {
       opacity: 0.5;
+    }
+  }
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    div {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    label,
+    input {
+      cursor: pointer;
+    }
+    label {
+      font-size: 16px;
+      color: var(--dark);
+    }
+  }
+  .colors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    .circle {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .red {
+      background: var(--red);
+    }
+    .blue {
+      background: var(--blue);
+    }
+    .green {
+      background: var(--green);
+    }
+    .orange {
+      background: var(--orange);
+    }
+    .yellow {
+      background: var(--yellow);
     }
   }
 `;

@@ -6,7 +6,9 @@ import { UseModeContext } from "../../context/ModeContenxt";
 const Container = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
+
   .name {
     text-transform: uppercase;
     letter-spacing: 0;
@@ -16,6 +18,7 @@ const Container = styled.div`
     gap: 0;
     font-size: 18px;
     line-height: 17px;
+    user-select: none;
   }
 `;
 
