@@ -20,3 +20,18 @@ export const navbarEn = [
   { id: 3, title: "Projects", path: "/projects", icon: <Icons.Projects /> },
   { id: 4, title: "Contact", path: "/contact", icon: <Icons.Contact /> },
 ];
+
+export const mainUz = {
+  name: "O'telbayev Jasurbek",
+  job: "Frontend Dasturchisi",
+};
+
+export const mainRu = {
+  name: "Утелбайев Жасурбек",
+  job: "Фронтенд разработчик",
+};
+
+export const mainEn = {
+  name: "O'telbayev Jasurbek",
+  job: "Frontend Developer",
+};

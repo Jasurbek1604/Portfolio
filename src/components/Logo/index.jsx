@@ -8,7 +8,6 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   gap: 10px;
-
   .name {
     text-transform: uppercase;
     letter-spacing: 0;
@@ -16,14 +15,14 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0;
-    font-size: 18px;
-    line-height: 17px;
+    font-size: 25px;
+    line-height: 20px;
     user-select: none;
   }
 `;
 
 const Icon1 = styled(code)`
-  width: 40px;
+  width: 45px;
   height: 40px;
   fill: ${({ mode }) => (mode === "light" ? "var(--dark)" : "var(--light)")};
 `;

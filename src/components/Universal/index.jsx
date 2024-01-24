@@ -29,7 +29,9 @@ const Universal = () => {
       <Container>
         <Sidebar />
         <Content>
-          <Outlet />
+          <div style={{ zIndex: 1 }}>
+            <Outlet />
+          </div>
           <SiteSetting mode={mode} $click={click.toString()}>
             <Wrap onClick={() => setClick(!click)}>
               <Setting />
@@ -96,23 +98,38 @@ const Universal = () => {
             <div className="colors">
               <div
                 className="circle red"
-                onClick={() => setColor("var(--red)")}
+                onClick={() => {
+                  setColor("var(--red)");
+                  localStorage.setItem("color", "var(--red)");
+                }}
               ></div>
               <div
                 className="circle blue"
-                onClick={() => setColor("var(--blue)")}
+                onClick={() => {
+                  setColor("var(--blue)");
+                  localStorage.setItem("color", "var(--blue)");
+                }}
               ></div>
               <div
                 className="circle green"
-                onClick={() => setColor("var(--green)")}
+                onClick={() => {
+                  setColor("var(--green)");
+                  localStorage.setItem("color", "var(--green)");
+                }}
               ></div>
               <div
                 className="circle orange"
-                onClick={() => setColor("var(--orange)")}
+                onClick={() => {
+                  setColor("var(--orange)");
+                  localStorage.setItem("color", "var(--orange)");
+                }}
               ></div>
               <div
                 className="circle yellow"
-                onClick={() => setColor("var(--yellow)")}
+                onClick={() => {
+                  setColor("var(--yellow)");
+                  localStorage.setItem("color", "var(--yellow)");
+                }}
               ></div>
             </div>
           </SiteSetting>

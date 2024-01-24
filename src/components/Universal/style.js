@@ -47,9 +47,10 @@ export const SiteSetting = styled.div`
   transition: 0.5s;
   position: absolute;
   background: #fff;
-  width: 200px;
+  width: 210px;
   padding: 20px;
   text-align: center;
+  top: 0;
   right: 0;
   transform: ${({ $click }) =>
     $click === "true" ? "translateX(100%)" : "translateX(0)"};
