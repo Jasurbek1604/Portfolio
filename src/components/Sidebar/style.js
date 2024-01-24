@@ -11,7 +11,7 @@ export const Container = styled.div`
     mode === "light"
       ? "1px solid rgba(0, 0, 0, 0.3)"
       : "1px solid rgba(255, 255, 255, 0.3)"};
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
