@@ -103,4 +103,24 @@ export const Content = styled.div`
       }
     }
   }
+  @media (max-width: 550px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+    .buttons {
+      button {
+        font-size: 16px;
+      }
+    }
+    .techs {
+      &__item {
+        &__title {
+          font-size: 16px;
+        }
+        &__content {
+          height: 8px;
+        }
+      }
+    }
+  }
 `;
