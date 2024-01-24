@@ -7,6 +7,7 @@ import phone from "../../assets/phone.svg?react";
 import twitter from "../../assets/twitter.svg?react";
 import telegram from "../../assets/telegram.svg?react";
 import youtube from "../../assets/youtube.svg?react";
+import teletype from "../../assets/teletype.svg?react";
 
 export const Container = styled.div`
   display: flex;
@@ -27,7 +28,7 @@ export const Container = styled.div`
   .links {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     margin-top: 20px;
   }
 `;
@@ -48,9 +49,18 @@ const iconStyle = css`
   padding: 5px;
   border-radius: 12px;
   box-sizing: content-box;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: ${({ color }) => `0 0 10px ${color}`};
+  }
 `;
 
 Icons.Github = styled(github)`
+  ${iconStyle}
+`;
+
+Icons.Teletype = styled(teletype)`
   ${iconStyle}
 `;
 
