@@ -77,7 +77,7 @@ export const Content = styled.div`
       display: block;
       position: absolute;
       top: 10px;
-      left: 30px;
+      left: 10px;
       background: transparent;
       z-index: 5;
       border: ${({ color }) => `1px solid ${color}`};
