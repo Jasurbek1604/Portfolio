@@ -17,6 +17,7 @@ const Universal = () => {
   const [click, setClick] = useState(true);
   const [mode, setMode] = UseModeContext();
   const [data, language, setLanguage] = useLangContext();
+  const [isOpen, setIsOpen] = useState(false);
   const [color, setColor] = useColorContext();
   const theme = {
     bg: mode === "light" ? "#f2f2fc" : "rgba(0,0,0,1)",
@@ -26,9 +27,13 @@ const Universal = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Container>
-        <Sidebar />
-        <Content color={color}>
+      <Container $isopen={isOpen.toString()}>
+        <div className="back" onClick={() => setIsOpen(false)}></div>
+        <Sidebar isopen={[isOpen, setIsOpen]} />
+        <Content mode={mode} color={color}>
+          <button className="btn" onClick={() => setIsOpen(true)}>
+            <Mode.Menu color={color} />
+          </button>
           <div style={{ zIndex: 1 }}>
             <Outlet />
           </div>

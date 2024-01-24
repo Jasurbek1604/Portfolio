@@ -5,17 +5,23 @@ import Logo from "../Logo";
 import { useLangContext } from "../../context/LangContext";
 import { useColorContext } from "../../context/ColorContext";
 
-const Sidebar = () => {
+const Sidebar = ({ isopen }) => {
   const [mode] = UseModeContext();
   const [data] = useLangContext();
   const [color] = useColorContext();
+  const [isOpen, setIsOpen] = isopen;
   return (
-    <Container mode={mode}>
-      <Logo />
+    <Container mode={mode} $isopen={isOpen.toString()}>
+      <Logo setisopen={setIsOpen} />
       <div className="nav">
         {data.map(({ id, title, path, icon }) => (
           <div key={id} className="nav__item">
-            <Link color={color} mode={mode} to={path}>
+            <Link
+              color={color}
+              onClick={() => setIsOpen(false)}
+              mode={mode}
+              to={path}
+            >
               {icon} {title}
             </Link>
           </div>

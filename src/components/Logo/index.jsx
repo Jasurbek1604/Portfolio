@@ -2,11 +2,13 @@ import React from "react";
 import code from "../../assets/code-solid.svg?react";
 import styled from "styled-components";
 import { UseModeContext } from "../../context/ModeContenxt";
+import { useNavigate } from "react-router-dom";
 
 const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   gap: 10px;
   .name {
     text-transform: uppercase;
@@ -27,10 +29,16 @@ const Icon1 = styled(code)`
   fill: ${({ mode }) => (mode === "light" ? "var(--dark)" : "var(--light)")};
 `;
 
-const Logo = () => {
+const Logo = ({ setisopen }) => {
   const [mode] = UseModeContext();
+  const navigate = useNavigate();
   return (
-    <Container>
+    <Container
+      onClick={() => {
+        navigate("/");
+        setisopen(false);
+      }}
+    >
       <Icon1 mode={mode} />
       <div className="name">
         <div>Jasurbek</div>

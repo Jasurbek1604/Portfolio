@@ -2,12 +2,29 @@ import styled, { keyframes } from "styled-components";
 import setting from "../../assets/setting.svg?react";
 import dark from "../../assets/dark-mode.svg?react";
 import light from "../../assets/light-mode.svg?react";
+import menu from "../../assets/bar.svg?react";
 
 export const Container = styled.div`
   display: flex;
   width: 100%;
   position: relative;
   overflow: hidden;
+  .back {
+    display: none;
+  }
+  @media (max-width: 1200px) {
+    .back {
+      display: ${({ $isopen }) => ($isopen === "true" ? "block" : "none")};
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      cursor: pointer;
+      z-index: 98;
+    }
+  }
 `;
 
 export const Wrap = styled.div`
@@ -51,6 +68,28 @@ export const Content = styled.div`
   }
   &::-webkit-scrollbar-thumb {
     background: ${({ color }) => color};
+  }
+  .btn {
+    display: none;
+  }
+  @media (max-width: 1200px) {
+    .btn {
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 30px;
+      background: transparent;
+      z-index: 5;
+      border: ${({ color }) => `1px solid ${color}`};
+      background: ${({ mode }) =>
+        mode === "light" ? "var(--light)" : "var(--dark)"};
+      padding: 4px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  @media (max-width: 1200px) {
+    width: 100%;
   }
 `;
 
@@ -140,4 +179,10 @@ Mode.Dark = styled(dark)`
 Mode.Light = styled(light)`
   width: 20px;
   height: 20px;
+`;
+
+Mode.Menu = styled(menu)`
+  width: 40px;
+  height: 25px;
+  fill: ${({ color }) => color};
 `;

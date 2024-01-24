@@ -32,6 +32,14 @@ export const Container = styled.div`
       cursor: pointer;
     }
   }
+
+  @media (max-width: 1200px) {
+    position: absolute;
+    transition: 0.3s;
+    top: 0;
+    left: ${({ $isopen }) => ($isopen === "true" ? "0" : "-100%")};
+    z-index: 99;
+  }
 `;
 
 export const Link = styled(NavLink)`
