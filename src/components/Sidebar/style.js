@@ -18,7 +18,7 @@ export const Container = styled.div`
   flex-direction: column;
   background: ${({ mode }) => (mode === "dark" ? "#151515" : "#fdf9ff")};
   .nav {
-    height: 70%;
+    height: 75%;
     display: flex;
     justify-content: center;
     flex-direction: column;

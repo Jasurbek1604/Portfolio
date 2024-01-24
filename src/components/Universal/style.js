@@ -40,7 +40,18 @@ export const Setting = styled(setting)`
 
 export const Content = styled.div`
   height: 100vh;
-  width: calc(100% - 300px);
+  width: calc(100% - 280px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #d2d2d2;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: ${({ color }) => color};
+  }
 `;
 
 export const SiteSetting = styled.div`
@@ -50,7 +61,7 @@ export const SiteSetting = styled.div`
   width: 210px;
   padding: 20px;
   text-align: center;
-  top: 0;
+  top: 10px;
   right: 0;
   transform: ${({ $click }) =>
     $click === "true" ? "translateX(100%)" : "translateX(0)"};

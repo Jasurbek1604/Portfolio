@@ -28,7 +28,7 @@ const Universal = () => {
       <GlobalStyle />
       <Container>
         <Sidebar />
-        <Content>
+        <Content color={color}>
           <div style={{ zIndex: 1 }}>
             <Outlet />
           </div>

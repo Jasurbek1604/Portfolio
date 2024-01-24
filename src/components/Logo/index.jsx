@@ -11,7 +11,7 @@ const Container = styled.div`
   .name {
     text-transform: uppercase;
     letter-spacing: 0;
-    font-weight: 700;
+    font-weight: 800;
     display: flex;
     flex-direction: column;
     gap: 0;

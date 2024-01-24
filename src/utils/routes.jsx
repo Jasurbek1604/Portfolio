@@ -1,4 +1,7 @@
+import About from "../components/About";
+import Contact from "../components/Contact";
 import Home from "../components/Home";
+import Projects from "../components/Projects";
 
 export const routes = [
   {
@@ -8,17 +11,17 @@ export const routes = [
   },
   {
     id: 2,
-    element: <h1>About</h1>,
+    element: <About />,
     path: "/about",
   },
   {
     id: 3,
-    element: <h1>Projects</h1>,
+    element: <Projects />,
     path: "/projects",
   },
   {
     id: 4,
-    element: <h1>Contact</h1>,
+    element: <Contact />,
     path: "/contact",
   },
 ];
