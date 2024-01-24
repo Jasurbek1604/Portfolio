@@ -105,7 +105,7 @@ export const SiteSetting = styled.div`
   transform: ${({ $click }) =>
     $click === "true" ? "translateX(100%)" : "translateX(0)"};
   border-radius: 0px 0 0 5px;
-  z-index: 99;
+  z-index: 10;
   button {
     background: transparent;
     border: 1px solid gainsboro;
