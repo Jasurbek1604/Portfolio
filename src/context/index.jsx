@@ -4,6 +4,7 @@ import LangProvider from "./LangContext";
 import ColorProvider from "./ColorContext";
 import AboutProvider from "./AboutContext";
 import ContactProvider from "./ContactContext";
+import ProjectProvider from "./ProjectContext";
 
 const Context = ({ children }) => {
   return (
@@ -11,7 +12,9 @@ const Context = ({ children }) => {
       <LangProvider>
         <ColorProvider>
           <AboutProvider>
-            <ContactProvider>{children}</ContactProvider>
+            <ContactProvider>
+              <ProjectProvider>{children}</ProjectProvider>
+            </ContactProvider>
           </AboutProvider>
         </ColorProvider>
       </LangProvider>

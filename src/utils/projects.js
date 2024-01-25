@@ -22,120 +22,147 @@ import img18 from "../assets/18.jpg";
 
 export const projects = [
   {
-    id: 1,
+    id: 19,
     title: "TSTU",
     link: "https://tstu.netlify.app",
     img: tstu,
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
+    tech: "react",
   },
   {
-    id: 2,
+    id: 20,
     title: "MASHT'AMIR",
     link: "https://mashremont.netlify.app/",
     img: mash,
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
+    tech: "react",
   },
   {
-    id: 5,
+    id: 21,
     title: "Ant Design",
     link: "https://ant-design-jasur.netlify.app/",
     img: ant,
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quod deserunt minus magni, praesentium accusantium?",
+    tech: "react",
   },
-];
-
-export const miniProjects = [
   {
     id: 1,
     img: img1,
+    tech: "html&css",
     link: "https://jasur-responsive1.netlify.app/",
   },
   {
     id: 2,
     img: img2,
+    tech: "html&css",
     link: "https://jasur-responsive2.netlify.app/",
   },
   {
     id: 3,
     img: img3,
+    tech: "html&css",
     link: "https://jasur-responsive3.netlify.app/",
   },
   {
     id: 4,
     img: img4,
+    tech: "html&css",
     link: "https://jasur-responsive4.netlify.app/",
   },
   {
     id: 5,
     img: img5,
+    tech: "html&css",
     link: "https://jasur-responsive5.netlify.app/",
   },
   {
     id: 6,
     img: img6,
+    tech: "html&css",
     link: "https://jasur-responsive6.netlify.app/",
   },
   {
     id: 7,
     img: img7,
+    tech: "html&css",
     link: "https://jasur-responsive7.netlify.app/",
   },
   {
     id: 8,
     img: img8,
+    tech: "html&css",
     link: "https://jasur-responsive8.netlify.app/",
   },
   {
     id: 9,
     img: img9,
+    tech: "html&css",
     link: "https://jasur-responsive9.netlify.app/",
   },
   {
     id: 10,
     img: img10,
+    tech: "html&css",
     link: "https://jasur-responsive10.netlify.app/",
   },
   {
     id: 11,
     img: img11,
+    tech: "html&css",
     link: " https://fabulous-flan-2761a4.netlify.app/",
   },
   {
     id: 12,
     img: img12,
+    tech: "html&css",
     link: "https://splendid-fairy-2fa574.netlify.app/",
   },
   {
     id: 13,
     img: img13,
+    tech: "html&css",
     link: "https://celebrated-unicorn-d7bc75.netlify.app/",
   },
   {
     id: 14,
     img: img14,
+    tech: "html&css",
     link: "https://luxury-gelato-5c95a2.netlify.app/",
   },
   {
     id: 15,
     img: img15,
+    tech: "html&css",
     link: "https://neon-klepon-a2cb49.netlify.app/",
   },
   {
     id: 16,
     img: img16,
+    tech: "html&css",
     link: " https://thriving-centaur-5857bf.netlify.app/",
   },
   {
     id: 17,
     img: img17,
+    tech: "html&css",
     link: "https://deft-sorbet-91d738.netlify.app/",
   },
   {
     id: 18,
     img: img18,
+    tech: "html&css",
     link: " https://cerulean-duckanoo-e5a9c9.netlify.app/",
   },
 ];
+
+export const projectUz = {
+  title: "Loihalar",
+  all: "Hammasi",
+};
+
+export const projectRu = {
+  title: "Проекты",
+  all: "Все",
+};
+
+export const projectEn = {
+  title: "Projeacts",
+  all: "All",
+};
