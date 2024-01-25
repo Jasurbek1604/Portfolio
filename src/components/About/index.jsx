@@ -92,7 +92,7 @@ const About = () => {
             <div className="techs__item">
               <div className="techs__item__title">
                 <div>Ant Design, Material UI</div>
-                <div>50%</div>
+                <div>65%</div>
               </div>
               <div className="techs__item__content">
                 <div className="techs__item__content__tech lib"></div>
@@ -101,7 +101,7 @@ const About = () => {
             <div className="techs__item">
               <div className="techs__item__title">
                 <div>Tailwind CSS, Bootstrap</div>
-                <div>50%</div>
+                <div>65%</div>
               </div>
               <div className="techs__item__content">
                 <div className="techs__item__content__tech lib"></div>

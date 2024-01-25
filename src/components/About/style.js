@@ -98,7 +98,7 @@ export const Content = styled.div`
           width: 75%;
         }
         .lib {
-          width: 50%;
+          width: 65%;
         }
       }
     }

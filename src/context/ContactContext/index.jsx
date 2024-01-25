@@ -98,11 +98,93 @@ const ContactProvider = ({ children }) => {
     ],
   };
 
+  const contactRu = {
+    title: "Контакт",
+    data: [
+      {
+        id: 1,
+        icon: <Phone color={color} />,
+        title: "Телефон",
+        link: "tel: +99893 596 02 46",
+        linkFront: "+99893 596 02 46",
+      },
+      {
+        id: 1,
+        icon: <Telegram color={color} />,
+        title: "Телеграм",
+        link: "https://t.me/Jasurbek_Otelbayev",
+        linkFront: "@jasurbek",
+      },
+      {
+        id: 1,
+        icon: <Location color={color} />,
+        title: "Офис",
+        link: null,
+        linkFront: "Uzb, Tashkent",
+      },
+      {
+        id: 1,
+        icon: <Email color={color} />,
+        title: "Электронная почта",
+        link: "mailto: jasurdev1604@gmail.com",
+        linkFront: "jasurdev1604@gmail.com",
+      },
+      {
+        id: 1,
+        icon: <Linkedin color={color} />,
+        title: "Линкедин",
+        link: "https://www.linkedin.com/in/jasurbek-otelbayev-6a6617252/",
+        linkFront: "linkedin",
+      },
+    ],
+  };
+
+  const contactEn = {
+    title: "Aloqa",
+    data: [
+      {
+        id: 1,
+        icon: <Phone color={color} />,
+        title: "Telefon",
+        link: "tel: +99893 596 02 46",
+        linkFront: "+99893 596 02 46",
+      },
+      {
+        id: 1,
+        icon: <Telegram color={color} />,
+        title: "Telegram",
+        link: "https://t.me/Jasurbek_Otelbayev",
+        linkFront: "@jasurbek",
+      },
+      {
+        id: 1,
+        icon: <Location color={color} />,
+        title: "Office",
+        link: null,
+        linkFront: "Uzb, Tashkent",
+      },
+      {
+        id: 1,
+        icon: <Email color={color} />,
+        title: "Email",
+        link: "mailto: jasurdev1604@gmail.com",
+        linkFront: "jasurdev1604@gmail.com",
+      },
+      {
+        id: 1,
+        icon: <Linkedin color={color} />,
+        title: "Linkedin",
+        link: "https://www.linkedin.com/in/jasurbek-otelbayev-6a6617252/",
+        linkFront: "linkedin",
+      },
+    ],
+  };
+
   const getContactLang = (prop) => {
     const obj = {
       uz: contactUz,
-      ru: contactUz,
-      en: contactUz,
+      ru: contactRu,
+      en: contactEn,
     };
     return obj[prop] || obj[en];
   };

@@ -32,6 +32,6 @@ export const mainRu = {
 };
 
 export const mainEn = {
-  name: "O'telbayev Jasurbek",
+  name: "Otelbayev Jasurbek",
   job: "Frontend Developer",
 };
