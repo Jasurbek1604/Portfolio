@@ -155,14 +155,17 @@ export const projects = [
 export const projectUz = {
   title: "Loihalar",
   all: "Hammasi",
+  link: "havola",
 };
 
 export const projectRu = {
   title: "Проекты",
   all: "Все",
+  link: "Линк ",
 };
 
 export const projectEn = {
   title: "Projeacts",
   all: "All",
+  link: "link",
 };

@@ -82,7 +82,7 @@ const Projects = () => {
                     to={link}
                     className="grid__item__bottom__link"
                   >
-                    link
+                    {value?.link}
                   </NavLink>
                 </div>
               </div>
