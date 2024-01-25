@@ -30,7 +30,7 @@ const Projects = () => {
     <div className="container">
       <div className="wrapper">
         <Container mode={mode} color={color}>
-          <Title dataAos="zoom-in">{value?.title}</Title>
+          <Title>{value?.title}</Title>
           <div className="nav" data-aos="zoom-in">
             <div className="nav__item">
               <Link
@@ -69,9 +69,9 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-          <div className="grid" data-aos="fade-up">
+          <div className="grid" data-aos="fade-down">
             {data.map(({ id, title, img, link }) => (
-              <div key={id} className="grid__item" data-aos="zoom-in">
+              <div key={id} className="grid__item">
                 <img src={img} className="grid__item__img" alt="" />
                 <div className="grid__item__bottom">
                   {title && (
