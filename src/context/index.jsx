@@ -3,13 +3,16 @@ import ModeProvider from "./ModeContenxt";
 import LangProvider from "./LangContext";
 import ColorProvider from "./ColorContext";
 import AboutProvider from "./AboutContext";
+import ContactProvider from "./ContactContext";
 
 const Context = ({ children }) => {
   return (
     <ModeProvider>
       <LangProvider>
         <ColorProvider>
-          <AboutProvider>{children}</AboutProvider>
+          <AboutProvider>
+            <ContactProvider>{children}</ContactProvider>
+          </AboutProvider>
         </ColorProvider>
       </LangProvider>
     </ModeProvider>
