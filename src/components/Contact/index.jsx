@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className="container">
       <div className="wrapper">
-        <Title dataAos="zoom-in">{contactData?.title}</Title>
+        <Title dataAos="fade-left">{contactData?.title}</Title>
         <Grid>
           {contactData?.data.map(({ id, icon, title, link, linkFront }) => (
             <div className="grid" data-aos="zoom-in" key={id}>

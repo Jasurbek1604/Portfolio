@@ -68,28 +68,28 @@ const ContactProvider = ({ children }) => {
         linkFront: "+99893 596 02 46",
       },
       {
-        id: 1,
+        id: 2,
         icon: <Telegram color={color} />,
         title: "Telegram",
         link: "https://t.me/Jasurbek_Otelbayev",
         linkFront: "@jasurbek",
       },
       {
-        id: 1,
+        id: 3,
         icon: <Location color={color} />,
         title: "Ofis",
         link: null,
         linkFront: "Uzb, Tashkent",
       },
       {
-        id: 1,
+        id: 4,
         icon: <Email color={color} />,
         title: "Email",
         link: "mailto: jasurdev1604@gmail.com",
         linkFront: "jasurdev1604@gmail.com",
       },
       {
-        id: 1,
+        id: 5,
         icon: <Linkedin color={color} />,
         title: "Linkedin",
         link: "https://www.linkedin.com/in/jasurbek-otelbayev-6a6617252/",
@@ -140,7 +140,7 @@ const ContactProvider = ({ children }) => {
   };
 
   const contactEn = {
-    title: "Aloqa",
+    title: "Contact",
     data: [
       {
         id: 1,
@@ -150,28 +150,28 @@ const ContactProvider = ({ children }) => {
         linkFront: "+99893 596 02 46",
       },
       {
-        id: 1,
+        id: 2,
         icon: <Telegram color={color} />,
         title: "Telegram",
         link: "https://t.me/Jasurbek_Otelbayev",
         linkFront: "@jasurbek",
       },
       {
-        id: 1,
+        id: 3,
         icon: <Location color={color} />,
         title: "Office",
         link: null,
         linkFront: "Uzb, Tashkent",
       },
       {
-        id: 1,
+        id: 4,
         icon: <Email color={color} />,
         title: "Email",
         link: "mailto: jasurdev1604@gmail.com",
         linkFront: "jasurdev1604@gmail.com",
       },
       {
-        id: 1,
+        id: 5,
         icon: <Linkedin color={color} />,
         title: "Linkedin",
         link: "https://www.linkedin.com/in/jasurbek-otelbayev-6a6617252/",
