@@ -55,6 +55,8 @@ export const Container = styled.div`
           font-size: 20px;
         }
         &__link {
+          color: ${({ color }) => color};
+          font-weight: 600;
         }
       }
     }
