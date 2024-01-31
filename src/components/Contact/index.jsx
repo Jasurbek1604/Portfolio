@@ -7,9 +7,9 @@ import { Grid } from "./style";
 const Contact = () => {
   const [contactData] = useContactContexxt();
   return (
-    <div className="container">
+    <div className="container" data-aos="fade-left">
       <div className="wrapper">
-        <Title dataAos="fade-left">{contactData?.title}</Title>
+        <Title>{contactData?.title}</Title>
         <Grid>
           {contactData?.data.map(({ id, icon, title, link, linkFront }) => (
             <div className="grid" data-aos="zoom-in" key={id}>
