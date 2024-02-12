@@ -1,6 +1,7 @@
 import ant from "../assets/ant.jpg";
 import mash from "../assets/mash.png";
 import tstu from "../assets/tstu.png";
+import houzing from "../assets/houzing.webp";
 import img1 from "../assets/1.jpg";
 import img2 from "../assets/2.jpg";
 import img3 from "../assets/3.jpg";
@@ -26,6 +27,13 @@ export const projects = [
     title: "TSTU",
     link: "https://tstu.netlify.app",
     img: tstu,
+    tech: "react",
+  },
+  {
+    id: 18,
+    title: "Houzing",
+    link: "https://jasur-houze.netlify.app/",
+    img: houzing,
     tech: "react",
   },
   {
