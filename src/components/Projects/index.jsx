@@ -16,7 +16,6 @@ const Projects = () => {
   const value = useProjectContext();
 
   const [data, setData] = useState(projects);
-
   useEffect(() => {
     if (query !== "all") {
       const res = projects.filter((e) => e.tech === query);

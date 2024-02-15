@@ -23,14 +23,14 @@ import img18 from "../assets/18.jpg";
 
 export const projects = [
   {
-    id: 19,
+    id: 180,
     title: "TSTU",
     link: "https://tstu.netlify.app",
     img: tstu,
     tech: "react",
   },
   {
-    id: 18,
+    id: 19,
     title: "Houzing",
     link: "https://jasur-houze.netlify.app/",
     img: houzing,
@@ -114,7 +114,7 @@ export const projects = [
     id: 11,
     img: img11,
     tech: "html&css",
-    link: " https://fabulous-flan-2761a4.netlify.app/",
+    link: "https://fabulous-flan-2761a4.netlify.app/",
   },
   {
     id: 12,
