@@ -55,17 +55,17 @@ const Projects = () => {
                 active={query === "react" ? "true" : "false"}
                 to={`${location.pathname}${useReplace("project", "react")}`}
               >
-                React
+                React JS
               </Link>
             </div>
             <div className="nav__item">
-              <Link
+              {/* <Link
                 color={color}
                 active={query === "react&ts" ? "true" : "false"}
                 to={`${location.pathname}${useReplace("project", "react&ts")}`}
               >
-                React & TypeScript
-              </Link>
+                React JS & TypeScript
+              </Link> */}
             </div>
           </div>
           <div className="grid" data-aos="fade-down">

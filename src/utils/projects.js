@@ -2,6 +2,7 @@ import ant from "../assets/ant.jpg";
 import mash from "../assets/mash.png";
 import tstu from "../assets/tstu.png";
 import houzing from "../assets/houzing.webp";
+import aipply from "../assets/aipply.png";
 import img1 from "../assets/1.jpg";
 import img2 from "../assets/2.jpg";
 import img3 from "../assets/3.jpg";
@@ -34,6 +35,13 @@ export const projects = [
     title: "Houzing",
     link: "https://jasur-houze.netlify.app/",
     img: houzing,
+    tech: "react",
+  },
+  {
+    id: 20,
+    title: "Aipply academy",
+    link: "https://aipply.uz/",
+    img: aipply,
     tech: "react",
   },
   {
